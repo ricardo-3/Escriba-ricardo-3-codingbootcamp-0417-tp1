@@ -1,0 +1,202 @@
+body{margin: 0;
+    font-family: Arial, Helvetica, sans-serif ;
+    line-height: 1.5em;
+    background: linear-gradient(to left, #abbaab, #ffffff);
+    
+}
+.header a {text-decoration: none;
+          color:  #ece9e6;         
+}
+
+.container{width: 100%;
+         height: 9rem;
+         background: linear-gradient(to left, #232526, #414345);
+         top: 0;
+         left: 0;
+         list-style: none;
+}
+.container ul{display: flex;
+             list-style: none;
+             justify-content: flex-end;
+             margin: 0;
+             padding: 0;
+             
+             
+}
+
+.container ul li{ padding-left: 30px;                  
+}
+
+
+.container ul li:hover{background: linear-gradient(to left, #000000, #434343);
+                       border-radius: 45px;
+                       
+}
+
+.logo-nav-container{display: flex;
+                    justify-content: space-between ;
+                    align-items: center;
+             
+}
+.navigation ul li a{display: block;
+                    padding: 1.5rem 2.5rem;
+
+}
+
+.logo{letter-spacing: 7px ;
+    font-size: 3em;
+}
+
+section{margin: 0  25%;
+}
+
+h1{font-size: 3rem;
+    text-align: center;
+    color: #232526,;
+}
+h2{font-size: 2rem;
+    color: #0f2027;
+    line-height: 1.3em;
+}
+
+.estaciones{width: 800px;
+            height: 800px;
+            border: 5px solid black;
+            border-radius: 25px;
+            background: linear-gradient(to left, #abbaab, #ffffff);
+            position: relative ;
+            font-family: Arial, Helvetica, sans-serif ;        
+}
+.estaciones p{font-size: 25px;
+              margin:0;
+              padding: 15px;
+              color: #434343;
+}
+.estaciones img{max-width: 250px;
+                border-radius: 6%;
+
+}
+.invierno{width: 255px;
+          height: 265px;
+          border: 3px solid black;
+          border-radius: 10%;
+          position: absolute;
+          left: 80px;
+          top: 80px;
+          text-align: center; 
+             
+}
+
+.primavera{width: 255px;
+    height: 265px;
+    border: 3px solid black;
+    border-radius: 10%;
+    position: absolute;
+    right: 80px;
+    top: 80px;
+    text-align: center; 
+ }
+.verano{width: 255px;
+    height: 265px;
+    border: 3px solid black;
+    border-radius: 10%;
+    position: absolute;
+    left: 80px;
+    bottom: 80px;
+    text-align: center; 
+}
+.otoño{width: 255px;
+    height: 265px;
+    border: 3px solid black;
+    border-radius: 10%;
+    position: absolute;
+    right: 80px;
+    bottom: 80px;
+    text-align: center; 
+}
+input{width: 100%;
+     padding: 12px 20px;
+     margin: 8px 0;
+     box-sizing: border-box;
+
+}
+.formulario{
+    box-sizing: border-box;
+    font-size: 10px;
+  }
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background:  #434343;
+    color: whitesmoke;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    float: right;
+  } 
+  
+  input[type=submit]:hover {
+    background-color: whitesmoke;
+    border-radius: 15px;
+    color: black;
+  }
+  
+  .container2 {
+    border: 1px solid black;
+    border-radius: 8px;
+    background:linear-gradient(to top, #8e9eab, #eef2f3); 
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 70%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+} }
+    
+footer{width: 97%;
+       padding:1.5em;
+       text-align: center;
+       margin-top: 1rem;
+       background: linear-gradient(to left, #232526, #414345);;
+       
+       
+             
+}
+h3{color: cornsilk;
+   font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif ;
+   
+}

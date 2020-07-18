@@ -1,0 +1,21 @@
+header{display: flex;
+
+
+}
+.menu{justify-content: center;
+background-color: black;
+color: blanchedalmond;
+}
+.menu ul{display: flex;
+        list-style: none;
+       
+
+
+}
+
+.menu ul li a{margin-left: 20px;
+            
+             justify-content: space-between;
+             color: black;
+}
+
