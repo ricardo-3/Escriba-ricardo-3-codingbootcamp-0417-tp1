@@ -1,0 +1,57 @@
+body{display: flex;
+    min-height: 100vh;
+    background-image: url(imagenes/wine.jpg);  
+}
+
+form{ margin: auto;
+       width: 50%;
+       max-width:600px;
+       background:black; 
+       opacity: 80%;
+       padding: 15px;
+       border: 1px solid black;   
+
+}
+
+h2{ text-align: center;
+    font-size: 45px;
+    margin-bottom: 30px;
+    color:white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+}
+
+input{ display: block;
+        padding: 10px;
+        width: 90%;
+        margin: 25px;
+        font-size: 20px;
+}
+
+input[type="submit"] { 
+     background: white ;  
+     border: 10 px;
+     color: black;
+     cursor: pointer;
+     border-radius: 20px;                
+     margin-bottom: 0 10 ;
+     opacity: 0.8;
+    
+}
+
+input[type="submit"]:hover { opacity: 2;}
+
+@media ( mind-width: 700px){
+         form{width: 55%;
+
+} }
+
+@media ( mind-width: 400px){
+    form{width: 75%;
+        display: none;
+    }
+    
+ }
+
+
+
