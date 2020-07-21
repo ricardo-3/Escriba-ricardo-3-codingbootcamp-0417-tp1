@@ -1,0 +1,90 @@
+*{box-sizing: border-box;
+  
+}
+
+
+body{font-family: Arial, Helvetica, sans-serif;
+     margin: 0; 
+     background-image: url(fotos/wine.jpg);
+     background-size: cover;
+    
+}
+
+.contenedor{
+      width: 100%;
+      padding: 10px;
+      
+}
+.formulario{background:rgba(333, 333, 333, 0.50);
+            margin-top: 150px;
+            padding: 3px;
+            width: 100%;
+}
+
+h1{text-align: center;
+   color: linear-gradient(to right, #333333, #dd1818);
+   font-size: 50px;
+  
+}
+
+input[type="text"],
+input[type="password"]{
+    font-size: 20px;
+    width: 75%;
+    padding: 10px;
+    border: none;
+    
+    
+
+    
+}
+.input-contenedor{
+
+    margin-bottom: 15px;
+    border: 0.5px solid #aaa;
+    
+   
+   
+   
+}
+.icon{min-width: 50px;
+      text-align: center;
+      color:black;
+      
+}
+.button{
+    border: none;
+    border-radius: 50px;
+    width: 100%;
+    color:white;
+    font-size: 20px;
+    background: linear-gradient(to right, #333333, #dd1818);
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.button:hover{
+    background: linear-gradient(to bottom, #eb5757, #000000);
+    color: white;
+}
+p{text-align: center;}
+
+.link{ text-decoration:none;
+       color:#dd1818;
+       font-weight: 600;
+}
+.link:hover{color:#b20a2c; }
+
+
+@media(min-width:768px){
+    .formulario{margin: auto;
+                width: 500px;
+                margin-top: 10%;
+                border-radius: 2%;
+    }
+
+
+
+}
+
+
+
